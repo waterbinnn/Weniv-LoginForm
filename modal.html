@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>로그인 또는 회원가입</title>
+	<link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css' rel='stylesheet' type='text/css'>
+	<link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="./reset.css">
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+	<article class="modal-wrapper">
+
+		<header class="modal-header">
+			<h1 class="modal-title">로그인 또는 회원가입</h1>
+			<a href="./index.html">
+				<img src="./img/close.png" alt="close">
+			</a>
+		</header>
+
+		<form action="post" class="form-wrapper">
+
+			<h2>위니브에서 여러분의 궁금증을 해결하세요! :)</h2>
+
+			<input type="text" placeholder="아이디" class="user-input id">
+			<input type="password" placeholder="비밀번호" class="user-input">
+
+			<div class="login-check">
+				<button type="button" class="ico-btn">
+					<img id="check" class="check-empty" src="./img/icon_check_empty.png">
+				</button>
+				<p>로그인 상태 유지</p>
+			</div>
+
+			<button type="submit" class="login-btn">로그인</button>
+
+			<div class="find-link">
+				<a href="#" class="link-join">회원가입</a>
+				<a href="#" class="link-idpw">아이디/비밀번호 찾기</a>
+			</div>
+
+			<div class="line">
+				<span>또는</span>
+			</div>
+
+			<a href="https://www.google.com/" class="site-link ico-go">
+				<img src="./img/icon-google.svg" alt="google">
+				<p>구글 계정으로 로그인</p>
+			</a>
+
+
+			<a href="https://www.facebook.com/" class="site-link ico-fb">
+				<img src="./img/icon-fb.svg" alt="facebook" class="img-fb" >
+				<p>페이스북 계정으로 로그인</p>
+			</a>
+
+			<a href="https://www.naver.com/" class="site-link ico-na">
+				<img src="./img/icon-na.svg" alt="naver">
+				<p>네이버 계정으로 로그인</p>
+			</a>
+
+			<a href="https://www.kakaocorp.com/" class="site-link ico-ka">
+				<img src="./img/icon-kakao.svg" alt="kakao">
+				<p>카카오 계정으로 로그인</p>
+			</a>
+		</form>
+
+	</article>
+	<script src="/login-btn.js"></script>
+</body>
+
+</html>
