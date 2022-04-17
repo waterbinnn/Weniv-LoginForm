@@ -197,14 +197,7 @@ input {
   color: #767676;
 }
 
-.line::before {
-  content: "";
-  flex-grow: 1;
-  margin: 0 13px;
-  background-color:  #C4C4C4;
-  height: 1px;
-}
-
+.line::before,
 .line::after {
   content: "";
   flex-grow: 1;
