@@ -22,7 +22,11 @@ button {
 }
 
 input {
-  padding-left: 10px;
+  padding-left: 16px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: normal;
+  color: #1c1c1c;
 }
 
 .sc-out {
@@ -67,7 +71,6 @@ input {
   color: #fff;
   border-radius: 5px;
   padding: 17px 0;
-
 }
 
 
@@ -77,7 +80,7 @@ input {
   background-color: #fff;
   border-radius: 10px;
   border: 1px solid #C4C4C4;
-  margin: 50px auto;
+  margin: 0px auto;
 }
 
 .modal-header {
@@ -87,12 +90,13 @@ input {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #D9D9D9;
-  padding: 20px 0px 18px;
+  padding: 20px 0px 17px;
 }
 
 .modal-title {
   display: block;
   font-size: 16px;
+  line-height: 1.25;
   font-weight: 500;
   color: #000000;
   margin: 0 auto;
@@ -110,7 +114,7 @@ input {
 }
 
 .form-wrapper {
-  padding: 26px 24px;
+  padding: 26px 24px 25px 24px;
 }
 
 .form-wrapper h2 {
@@ -132,14 +136,6 @@ input {
 .user-input.id {
   margin-bottom: 10px;
 }
-
-.user-input::placeholder {
-  display: block;
-  font-size: 16px;
-  color: #767676;
-  padding: 15px 16px;
-}
-
 
 .login-check {
   display: flex;
@@ -193,7 +189,7 @@ input {
   background-color: #767676;
 }
 
-.find-link:after {
+.find-link::after {
   content: '';
   display: block;
   clear: both;
