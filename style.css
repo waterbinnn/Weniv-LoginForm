@@ -34,7 +34,7 @@ input {
   width: 1px;
   height: 1px;
   margin: -1px;
-  clip: rect(0,0,0,0);
+  clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
@@ -75,7 +75,9 @@ input {
 
 
 /* modal */
+
 .modal-wrapper {
+  position: relative;
   width: 520px;
   background-color: #fff;
   border-radius: 10px;
@@ -83,32 +85,27 @@ input {
   margin: 0px auto;
 }
 
-.modal-header {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #D9D9D9;
-  padding: 20px 0px 17px;
-}
-
 .modal-title {
   display: block;
+  text-align: center;
   font-size: 16px;
   line-height: 1.25;
   font-weight: 500;
   color: #000000;
-  margin: 0 auto;
+  padding: 20px 18px;
+  border-bottom: 1px solid #D9D9D9;
+
 }
 
-.modal-header a {
+.btn-close {
   position: absolute;
-  top: 20px;
-  right: 20px;
+  top: 0;
+  right: 0;
+  padding: 22px 24px;
+  background-color: transparent;
 }
 
-.modal-header img {
+.btn-close img {
   width: 16px;
   height: 16px;
 }
@@ -154,6 +151,7 @@ input {
   line-height: 1.25;
   color: #767676;
   margin-left: 8px;
+  padding-top: 1px;
 }
 
 .login-btn {
@@ -187,12 +185,6 @@ input {
   height: 14px;
   margin: 1px 12px;
   background-color: #767676;
-}
-
-.find-link::after {
-  content: '';
-  display: block;
-  clear: both;
 }
 
 .line {
